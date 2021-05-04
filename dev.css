@@ -91,42 +91,9 @@ a.active,a:hover{
     left: 0;
   }
 }
- section{
-  background: url(back1.jpeg) no-repeat;
+section{
+  background: url(pexels-photo-2383010.jpeg) no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);
 
-} 
-.content-area{
-  font-size: 60px;
-  text-align: center;
-  margin-top: 140px;
-  margin-left: 10px;
-  color:#12232e;
-}
-.button{
-  width: 250px;
-  height: 80px;
-  background-color: darkgray;
-  color: #133147;
-  font-size: 25px;
-  font-weight: 900;
-  font-family: cursive;
-  margin-top: 10px;
-  border: 5px solid #14344d;
-  border-radius: 2em;
-}
-.button:hover{
-  color: #1b9bff;
-}
-p{
-  font-size: large;
-  display: flex;
-  flex-direction: row;
-  margin-left: 26em;
-  color:#0c1c52;
-  font-style: italic;
-  font-weight: 700;
-  text-align: center;
-  width: 400px;
 }
