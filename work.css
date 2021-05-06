@@ -40,7 +40,7 @@
     width: 850px;
     position: absolute;
     left: 450px;
-    bottom: 550px;
+    bottom: 200px;
     font-size: 20px;
 }
 
@@ -53,7 +53,9 @@
     float: left;
     font-weight: 700;
     font-size: 20px;
-    padding-top: 10px;
+    position: absolute;
+    bottom: 60px;
+    right: 530px;
 }
 
 .content2 {
@@ -61,7 +63,7 @@
     height: 500px;
     width: 100%;
     border: 10px solid white;
-    padding: 50px;
+    margin: 0px;
 }
 
 .content2 h3 {
@@ -70,27 +72,32 @@
     text-align: center;
     background-color: white;
     font-size: 30px;
-    margin: 0;
-    margin-bottom: 10px;
+    position: absolute;
+    left: 1000px;
+}
+.content2 img{
+    position: absolute;
+    top: 610px;
+    left: 1000px;
 }
 
 .causes {
     position: absolute;
-    bottom: 100px;
-    left: 100px;
+    bottom: -240px;
+    left: 60px;
     padding-top: 50px;
     font-size: 20px;
     font-weight: 500;
 }
 
 .content3 {
-    background-color: white;
-    height: 500px;
+    background-color: wheat;
+    height: 300px;
     width: 100%;
     border: 10px solid white;
     display: flex;
     justify-content: space-around;
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 20px;
 }
 
@@ -114,12 +121,12 @@
 
 .types {
     float: right;
-    font-size: 25px;
+    font-size: 20px;
     background-color: white;
     position: relative;
-    right: 180px;
-    bottom: 280px;
-    width: 900px;
+    left: 0px;
+    bottom: 240px;
+    width: 800px;
 }
 
 .types li {
@@ -136,11 +143,11 @@
 
 .subcontent2 img {
     position: absolute;
-    left: 1200px;
+    left: 800px;
 }
 
 .sym-con {
-    font-size: 30px;
+    font-size: 20px;
     margin: 30px;
 }
 
