@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.title {
+    background-color: pink;
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid white;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.content1 {
+    background-color: gray;
+    height: 400px;
+    width: 100%;
+    border: 10px solid white;
+}
+
+.con-tent1 h3 {
+    border: 5px solid #112D42;
+    width: 280px;
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+.content1 p {
+    width: 600px;
+    position: absolute;
+    left: 450px;
+    bottom: 350px;
+}
+
+.content2 {
+    background-color: orange;
+    height: 300px;
+    width: 100%;
+    border: 10px solid white;
+}
+
+.content2 h3 {
+    border: 5px solid #112D42;
+    width: 280px;
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+.content2 p {
+    width: 350px;
+    position: relative;
+    left: 450px;
+    bottom: 350px;
+}
+
+.causes {
+    position: relative;
+    bottom: 350px;
+    left: 400px;
+}
+
+.content3 {
+    background-color: blue;
+    height: 500px;
+    width: 100%;
+    border: 10px solid white;
+}
+
+.subcontent1 {
+    background-color: violet;
+    height: 400px;
+    width: 100%;
+    border: 10px solid white;
+}
+
+.subcontent2 {
+    background-color: yellow;
+    height: 300px;
+    width: 100%;
+    border: 10px solid white;
+}
+
+.subcontent3 {
+    background-color: cyan;
+    height: 500px;
+    width: 100%;
+    border: 10px solid white;
+}
+
+.main {
+    background-color: green;
+    height: 300px;
+    width: 100%;
+    border: 10px solid white;
+}
