@@ -133,7 +133,7 @@
     width: 850px;
     position: absolute;
     left: 450px;
-    bottom: 100px;
+    bottom: 150px;
     font-size: 20px;
 }
 
@@ -147,8 +147,8 @@
     font-weight: 700;
     font-size: 20px;
     position: absolute;
-    top: 650px;
-    right: 530px;
+    top: 700px;
+    right: 650px;
 }
 
 .content2 {
