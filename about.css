@@ -95,17 +95,22 @@
     height: calc(100vh - 80px);
   }
 #back2 {
-height: 500px;
-/* transform: rotate(-180deg); */
+height: 600px;
 background-position: center;
+background-image: url(back2.jpeg);
+transform: rotate(-180deg);
+
 }
 .aboutus{
   position: absolute;
-  bottom: 200px;
-  left: 200px;
-  width: 200px;
+  /* padding-bottom: -15%; */
+  bottom: 25%;
+  right: 45%;
+  width: 500px;
+  transform: rotate(-180deg);
   overflow: auto;
-  }
+ 
+    }
   .back2{
     height: 500px;
     /* transform: rotate(-180deg); */
@@ -113,9 +118,11 @@ background-position: center;
   .aboutus h1{
     text-align: center;
     text-decoration-line: underline;
-    color: blueviolet;
+    color: black;
+    font-size: 40px;
   }
   .aboutus h2{
     text-align: center;
+    font-size: 25px;
      }
   

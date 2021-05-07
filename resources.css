@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+
+body {
+    font-family: montserrat;
+    background-color: whitesmoke;
+    padding: 20;
+}
+
+nav {
+    background-color: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+    @media (max-width: 858px) {}
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}
+
+section {
+    background: url(pexels-photo-2383010.jpeg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.hero_img {
+    position: relative;
+    left: 110px;
+}
+
+.emergency {
+    position: relative;
+    left: 500px;
+    bottom: 400px;
+    width: 600px;
+    font-size: 20px;
+}
+.emergency_img{
+    margin-top: 40px;
+}
+.emergency ul li{
+    list-style: square;
+}
+.emergency ul li p{
+    padding-top: 10px; 
+}
+.img2{
+    margin-top:-350px ;
+}
+.types{
+    font-size: 20px;
+}
+.types h3{
+    padding: 10px 0 10px  0;
+}
+.types h4{
+    padding: 10px 0 10px 0;
+    
+}
+.specimage1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.specialist h5{
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+    color: blue;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    background-color: #0082e6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+
+a{
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+}
+.therapy{
+    border: 2px solid whitesmoke;
+    border-radius:2em ;
+    padding: 20px;
+   
+}
+.online{
+    border: 2px solid whitesmoke;
+    border-radius:2em ;
+    padding: 20px;
+}
+.support{
+    border: 2px solid whitesmoke;
+    border-radius:2em ;
+    padding: 20px;
+}
+.clinical{
+    border: 2px solid whitesmoke;
+    border-radius:2em ;
+    padding: 20px;
+}
+.free{
+    border: 2px solid whitesmoke;
+    border-radius:2em ;
+    padding: 20px;
+}
+.free:hover{
+    background-color: whitesmoke;
+}
+.clinical:hover{
+    background-color: whitesmoke;
+}
+
+.therapy:hover{
+    background-color: whitesmoke;
+}
+
+.support:hover{
+    background-color: whitesmoke;
+}
+
+.online:hover{
+    background-color: whitesmoke;
+    
+}
