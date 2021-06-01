@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    font-family: montserrat;
+}
+
+nav {
+    background-color: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+    @media (max-width: 858px) {}
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+}
+
+section {
+    background: url(pexels-photo-2383010.jpeg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+
+.title {
+    background-color: pink;
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid white;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.content1 {
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    border: 10px solid white;
+}
+
+.con-tent1 h3 {
+    border: 5px solid #112D42;
+    width: 280px;
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+.content1 p {
+    width: 850px;
+    position: absolute;
+    left: 450px;
+    bottom: 150px;
+    font-size: 20px;
+}
+
+.con-2 {
+    float: right;
+    margin-right: 200px;
+}
+
+.con-3 p {
+    float: left;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    top: 700px;
+    right: 650px;
+}
+
+.content2 {
+    background-color: #0082e6;
+    height: 500px;
+    width: 100%;
+    border: 10px solid white;
+    margin: 0px;
+}
+
+.content2 h3 {
+    border: 5px solid #112D42;
+    width: 280px;
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 1000px;
+}
+
+.content2 img {
+    position: absolute;
+    top: 700px;
+    left: 1000px;
+}
+
+.causes {
+    position: absolute;
+    bottom: -320px;
+    left: 60px;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content3 {
+    background-color: wheat;
+    height: 300px;
+    width: 100%;
+    border: 10px solid white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.myths p {
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px white;
+}
+
+.facts p {
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px whitesmoke;
+}
+
+.subcontent1 {
+    background-color: #0082e6;
+    height: 500px;
+    width: 100%;
+    border: 10px solid white;
+    padding: 50px;
+}
+
+.types {
+    float: right;
+    font-size: 20px;
+    background-color: white;
+    position: relative;
+    left: 0px;
+    bottom: 240px;
+    width: 800px;
+}
+
+.types li {
+    position: relative;
+    left: 50px;
+}
+
+.subcontent2 {
+    background-color: white;
+    height: 550px;
+    width: 100%;
+    border: 10px solid white;
+}
+
+.subcontent2 img {
+    position: absolute;
+    left: 800px;
+}
+
+.sym-con {
+    font-size: 20px;
+    margin: 30px;
+}
+
+.subcontent1 h2 {
+    border: 5px solid #112D42;
+    width: 280px;
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+.subcontent2 h2 {
+    border: 5px solid #112D42;
+    width: 280px;
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    margin: 0;
+}
